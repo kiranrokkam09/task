@@ -25,11 +25,11 @@ from app.views import BankViewSet,BranchViewSet,index
 
 router = routers.SimpleRouter()
 router.register("Bank",BankViewSet)
-router.register("Branch",BranchViewSet)
-router.register("",index)
+router.register("Branch",BranchViewSet,basename="Branch")
 
 urlpatterns=router.urls
 
 urlpatterns += [
     path('admin/', admin.site.urls),
+    path('',index),
 ]
