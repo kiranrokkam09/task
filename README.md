@@ -10,7 +10,7 @@ A REST api written in Django for people with deadlines
 * If you wish to run your own build, first ensure you have python globally installed in your computer. If not, you can get python [here](https://www.python.org").
 * Then, Git clone this repo to your PC
     ```bash
-        $ git clone https://github.com/gitgik/django-rest-api.git
+        $ git clone https://github.com/kiranrokkam09/task.git
     ```
 
 * #### Dependencies
