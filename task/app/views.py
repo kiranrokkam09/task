@@ -3,6 +3,7 @@ import csv
 
 from django.core.files.base import ContentFile
 from django.core.files.storage import FileSystemStorage
+from django.http import HttpResponse
 
 from rest_framework import viewsets
 from rest_framework.decorators import action
@@ -10,6 +11,10 @@ from rest_framework.response import Response
 
 from .models import banks, branches
 from .serializers import BankSerializer, BranchSerializer
+
+#Start Page
+def index(request):
+    return HttpResponse("Hello API !!")
 
 # Initialize a FileSystemStorage object for file handling
 fs = FileSystemStorage(location='tmp/')

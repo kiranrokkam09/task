@@ -21,11 +21,12 @@ from django.conf.urls.static import static
 
 from rest_framework import routers
 
-from app.views import BankViewSet,BranchViewSet
+from app.views import BankViewSet,BranchViewSet,index
 
 router = routers.SimpleRouter()
 router.register("Bank",BankViewSet)
-router.register("Branch",BranchViewSet,basename="Branch")
+router.register("Branch",BranchViewSet)
+router.register("",index)
 
 urlpatterns=router.urls
 
