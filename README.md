@@ -46,10 +46,15 @@ A REST api written in Django for people with deadlines
     ```
         http://localhost:8000/Bank/
     ```
-    **Below**: *Screenshot from the browsable API*
-      ![Screenshot][]
+    **Below**: *Screenshot from the Bank API*
   
-    You can now access the Branch with branch details using bank ifsc code with api service on your browser by using
+  ![Bank](https://github.com/kiranrokkam09/task/assets/85286397/6efae730-5c05-48e3-b0c2-39b683c55dc7)
+
+  
+  You can now access the Branch with branch details using bank ifsc code with api service on your browser by using
     ```
         http://localhost:8000/Branch/?ifsc={bank ifsc code}
     ```
+  **Below**: *Screenshot from the Branch API*
+  
+    ![Branch](https://github.com/kiranrokkam09/task/assets/85286397/7b5b5650-9cf8-4532-a263-f8d37e1f7397)
