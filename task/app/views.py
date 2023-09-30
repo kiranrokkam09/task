@@ -109,7 +109,7 @@ class BranchViewSet(viewsets.ModelViewSet):
                     state=state,
                 )
             )
-
+        print(product_list)
         # Bulk insert the list of branch objects into the database
         branches.objects.bulk_create(product_list)
 
