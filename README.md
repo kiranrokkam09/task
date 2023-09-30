@@ -60,6 +60,10 @@ A REST api written in Django for people with deadlines
     ![Branch](https://github.com/kiranrokkam09/task/assets/85286397/7b5b5650-9cf8-4532-a263-f8d37e1f7397)
 
 * ### Test It
-    U can test the apis using the simple command:
+  U can test the apis using the simple command:
     ```bash
         $ python manage.py test
+
+* ### Deployment
+  U can check the deployment server here
+  [https://kiranrokkam456.pythonanywhere.com/](https://kiranrokkam456.pythonanywhere.com/)
